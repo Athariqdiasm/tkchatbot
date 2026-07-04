@@ -14,7 +14,7 @@ from google import genai
 from google.genai import types
 
 # ----------------------------- Konfigurasi dasar -----------------------------
-PDF_PATH = os.path.join("data", "profil_kupu_kupu_mungil.pdf")
+PDF_PATH = os.path.join("profil_kupu_kupu_mungil.pdf")
 CHAT_MODEL = "gemini-2.5-flash"
 EMBED_MODEL = "gemini-embedding-001"
 TOP_K = 4
